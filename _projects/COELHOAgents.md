@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: COELHO Agents
+description: February 2025
+img: assets/img/coelho_agents_logo.png
+date: 2025-02-17
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

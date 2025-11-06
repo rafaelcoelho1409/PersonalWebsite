@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Formula 1 Analytics
+description: November 2023
+img: assets/img/f1_home.jpg
+date: 2023-11-01
 category: work
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

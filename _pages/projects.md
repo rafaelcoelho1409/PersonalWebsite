@@ -1,11 +1,14 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: >
+  Here are all my portfolio projects I’ve been published in the last years.
+  <br>
+  My main purpose with all these projects is to get more experience and to deliver new results and values thinking about new and future projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [work]
 horizontal: false
 ---
 
@@ -18,7 +21,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign sorted_projects = categorized_projects | sort: "date" | reverse %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -41,7 +44,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: "date" | reverse %}
 
   <!-- Generate cards for each project -->
 

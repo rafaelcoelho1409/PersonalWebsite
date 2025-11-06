@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: COELHO GenAI
+description: September 2024
+img: assets/img/coelho_genai_logo.png
+date: 2024-09-01
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
