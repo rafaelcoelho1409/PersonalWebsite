@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-building-a-local-kubernetes-cluster-with-devops-tools-using-terraform",
+        
+          title: "Building a local Kubernetes cluster with DevOps tools using Terraform",
+        
+        description: "How to build a local K3D cluster that hosts GitLab, Rancher, ArgoCD and LocalStack",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio/blog/2025/k3d-local-cluster/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
