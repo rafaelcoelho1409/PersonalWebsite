@@ -73,6 +73,14 @@
     {
       "name": "Cybersecurity",
       "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Pentesting",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Open Source Intelligence (OSINT)",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
   "languages": [

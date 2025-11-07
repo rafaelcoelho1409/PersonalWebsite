@@ -5,6 +5,11 @@ repo_description_lines_max: 1
 
 github_repos:
   #2025
+  - repo: rafaelcoelho1409/K3D
+    year: 2025
+    project_name: Building a local Kubernetes cluster with DevOps tools using Terraform
+    release_date: November 2025
+    key_tools: "K3D | Docker | Kubernetes | Helm | Terraform | ArgoCD | GitLab | Rancher | LocalStack"
   - repo: rafaelcoelho1409/YouTubeContentSearch
     year: 2025
     project_name: YouTube Content Search
